@@ -65,4 +65,23 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .team-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: left; /* Ensures the rest of the text aligns left */
+  }
+  
+  .school-name {
+    text-align: center; /* Centers the school name */
+    margin: 0;
+  }  
 }

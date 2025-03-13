@@ -1,14 +1,14 @@
-import './App.css'
+import React from "react";
+import TeamList from "./TeamList";
 
-function App() {
-
-  const someVariable = "Hello, world!"
-
+const App: React.FC = () => {
   return (
-    <>
-      <h1>{someVariable}</h1>
-    </>
-  )
-}
+    <div>
+      <h1>Welcome to College Basketball Teams</h1>
+      <p>Explore teams, their mascots, and where they are located.</p>
+      <TeamList />
+    </div>
+  );
+};
 
-export default App
+export default App;
